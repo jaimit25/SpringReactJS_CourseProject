@@ -1,0 +1,14 @@
+.register_component{
+	background-color: green;
+	padding:10px;
+}
+
+.btn{
+	background-color: #CE7777;
+	width: 80px;
+	border-radius: 10px;
+	padding: 8px;
+	color:white;
+	border: 0px solid ;
+	font-size: 15px;
+}

@@ -1,0 +1,42 @@
+
+.App{
+	background-color: #F2E5E5;
+	min-height: 100vh;
+	display : flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.btn{
+	background-color: #CE7777;
+	width: 80px;
+	border-radius: 10px;
+	padding: 8px;
+	color:white;
+	border: 0px solid ;
+	margin:5px;
+	font-size: 15px;
+}
+.navbar ul li{
+	display: inline;
+	margin: 3px;
+}
+
+
+
+.navbar{
+	background-color: #E8C4C4;
+	padding: 5px;
+	height: 50px;
+}
+
+.container{
+	flex: 1;
+	padding: 10px;
+	/* background-color: aqua; */
+}
+
+
+
+
+
