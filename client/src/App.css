@@ -1,25 +1,39 @@
 
 .App{
-	background-color: #F2E5E5;
+	/* background-color: #F2E5E5; */
 	min-height: 100vh;
 	display : flex;
 	flex-direction: column;
 	height: 100vh;
+	overflow: hidden;
 }
 
-.btn{
+.button{
 	background-color: #CE7777;
 	width: 80px;
 	border-radius: 10px;
 	padding: 8px;
-	color:white;
 	border: 0px solid ;
 	margin:5px;
-	font-size: 15px;
+	color:white;
+	font-size: 2vh;
 }
+
+.button:hover{
+	background-color: rgb(182, 104, 104);
+	width: 80px;
+	border-radius: 10px;
+	padding: 8px;
+	border: 0px solid ;
+	margin:5px;
+	color:white;
+	font-size: 2vh;
+}
+
 .navbar ul li{
 	display: inline;
 	margin: 3px;
+	
 }
 
 
@@ -27,14 +41,21 @@
 .navbar{
 	background-color: #E8C4C4;
 	padding: 5px;
-	height: 50px;
+	height: 6vh;
+
 }
 
 .container{
-	flex: 1;
-	padding: 10px;
-	/* background-color: aqua; */
+	/* to take available page area */
+	flex: 1; 
+	
+	/* background-image:url("https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/photo-effects/make-an-image-black-and-white/make-image-black-and-white.jpg"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 100vw; */
+	background-color: rgba(227, 198, 193, 0.637);
 }
+
 
 
 

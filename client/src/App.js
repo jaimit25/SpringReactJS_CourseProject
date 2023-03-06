@@ -50,10 +50,11 @@ function App() {
 
   return (
       <div className='App'>
+
         <div className="navbar">
           <ul>
-            {id == null && <li><button className='btn' onClick={pageHandler}>{page}</button></li>}
-            <li><button className='btn' onClick={logouth}>Logout</button></li>
+            {id == null && <li><button className='button' onClick={pageHandler}>{page}</button></li>}
+            <li><button className='button' onClick={logouth}>Logout</button></li>
           </ul>
         </div>
 
