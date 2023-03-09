@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const user_id = localStorage.getItem("id",);
-    console.log(user_id)
+    // console.log(user_id)
     if (user_id != null) {
       setId(user_id);
     }
@@ -24,8 +24,8 @@ function App() {
       "email" : "jaimit.jp@gmail.com",
         "password" : "12345678"
     }).then((res)=>{
-      console.log(res.config.data);
-      console.log(res);
+      // console.log(res.config.data);
+      // console.log(res);
 
     }).catch(e=>{
       console.log("ERROR");
@@ -39,7 +39,7 @@ function App() {
   }
 
   const pageHandler = () => {
-    console.log(page)
+    // console.log(page)
     if (page === "Login") {
       setPage("Register")
     }
