@@ -24,3 +24,7 @@ iframe{
     overflow-y: scroll;
 }
 
+.item_list:hover{
+    cursor: pointer;
+}
+
