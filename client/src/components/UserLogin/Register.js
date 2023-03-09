@@ -14,7 +14,7 @@ export default function Register(props) {
 
   useEffect(() => {
     initialID();
-  }, []);
+  });
 
   function initialID() {
     const idd =
@@ -59,7 +59,7 @@ export default function Register(props) {
         password: user.password,
       });
       axios
-        .post(`http://localhost:8080/api/v1/user/login`, {
+        .post(process.env.REACT_APP_LINK +'/user/login', {
           email: user.email,
           password: user.password,
         })
@@ -67,6 +67,7 @@ export default function Register(props) {
           if (res.data !== "") {
             console.log("user already exist");
             console.log(res.data.name);
+            alert("User Already Exist")
             return true;
           } else {
             createUser(userObj);
@@ -84,7 +85,7 @@ export default function Register(props) {
 
   function createUser(userObj) {
     axios
-      .post(`http://localhost:8080/api/v1/user`, user)
+      .post(process.env.REACT_APP_LINK +'/user', user)
       .then((res) => {
         console.log(res.body);
         console.log(res.data);

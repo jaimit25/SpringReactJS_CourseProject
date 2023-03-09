@@ -35,8 +35,9 @@ export default function Login(props) {
 
   //this function will login the user
   function getLogin(userObj) {
+    console.log(process.env.REACT_APP_LINK);
     axios
-      .post(`http://localhost:8080/api/v1/user/login`, userObj)
+      .post(process.env.REACT_APP_LINK +'/user/login', userObj)
       .then((res) => {
         console.log(res.data);
         console.log(res);
@@ -49,11 +50,15 @@ export default function Login(props) {
           localStorage.setItem("id", res.data.id);
           props.callBack(res.data.id);
           return;
-        } else console.log("Password is wrong or data is empty");
+        } else {
+          console.log("Password is wrong or data is empty");
+          alert("Password is wrong or data is empty");
+        }
       })
       .catch((e) => {
         console.log("ERROR");
         console.log(e.message);
+        alert(e.message);
       });
   }
 

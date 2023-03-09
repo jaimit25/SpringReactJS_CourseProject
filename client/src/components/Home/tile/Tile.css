@@ -1,0 +1,52 @@
+.tile_container{
+	background-color: white;
+	width: 100%;
+	/* height: 30vh; */
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+}
+
+.tile_imgBox{
+	height: 100%;
+	width:10%;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	background-repeat: none;
+	background-size: cover;                     
+	background-position: center center;
+	background: url("https://images.unsplash.com/photo-1579547621700-03c2c337370a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+}
+
+.tile_details{
+	padding: 1%;
+	padding-top: 1%;
+	display: flex;;
+	flex-direction: column;
+	align-items: flex-start;
+	overflow: hidden;
+
+}
+
+.tile_title{
+	font-size: 300%;
+	font-style: bold;
+	font-weight: 700;
+}
+
+.tile_author{
+	font-size: 20px;
+	font-weight:500;
+	font-style: bold;
+	color: rgb(70, 68, 68);
+	margin-bottom: 20px;
+}
+
+.tile_description{
+	word-wrap: break-word;
+	font-size: 16px;
+	font-weight: 100;
+	color: rgb(70, 68, 68);
+
+}

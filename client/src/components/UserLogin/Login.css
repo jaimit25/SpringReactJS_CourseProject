@@ -10,7 +10,7 @@
 
 .box{
 	background-color: #CE7777;
-	margin: auto;
+	margin: 10px;
 	display: flex;
 	flex-direction: column;
 	width: 50vh;
@@ -19,8 +19,6 @@
 	justify-content: center;
 	border-radius: 10px;
 	padding:10px;
-	
-
 }
 
 .title{

@@ -54,6 +54,8 @@
 	background-size: cover;
 	/* width: 100vw; */
 	background-color: rgba(227, 198, 193, 0.637);
+	height: 100%;
+	overflow: scroll;
 }
 
 

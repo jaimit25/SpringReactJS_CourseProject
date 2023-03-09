@@ -5,8 +5,8 @@ import Login from './components/UserLogin/Login'
 import Register from './components/UserLogin/Register'
 import axios from 'axios'
 
-function App() {
 
+function App() {
   const [id, setId] = useState(null);
   const [page, setPage] = useState("Register");
 
@@ -17,7 +17,6 @@ function App() {
       setId(user_id);
     }
     // getUser();
-
   });
 
   const getUser=() => {
