@@ -7,7 +7,7 @@ http://localhost:3000/home
 To Access the Admin Section(pass: "admin") :
 http://localhost:3000/admin
 
-List of API's
+## List of API's
 ![IMAGE 2023-03-10 21:36:53](https://user-images.githubusercontent.com/68295105/224365254-23267e68-5e08-436b-aaff-0612f36ec996.jpg)
 
 
