@@ -11,6 +11,17 @@ http://localhost:3000/admin
 ![IMAGE 2023-03-10 21:36:53](https://user-images.githubusercontent.com/68295105/224365254-23267e68-5e08-436b-aaff-0612f36ec996.jpg)
 
 
+## Project Photos
+
+#### User Side 
+![login](https://user-images.githubusercontent.com/68295105/224372879-9f135ba0-b5ea-49bc-ae54-f1d40d22eb77.png)
+![home](https://user-images.githubusercontent.com/68295105/224372886-1e040174-5fda-4083-9546-b4844fac3761.png)
+![player](https://user-images.githubusercontent.com/68295105/224372889-d5d4fbd5-be55-4d41-8d1a-1bb23d48900b.png)
+![search](https://user-images.githubusercontent.com/68295105/224372896-4114e379-f3ae-4fda-be9f-53637a83ed4f.png)
+
+#### Admin Side
+![Add](https://user-images.githubusercontent.com/68295105/224372992-a7df0e29-3ece-4208-a7ec-7e6ac6644945.png)
+![Admin_Search](https://user-images.githubusercontent.com/68295105/224373012-a0412ac5-6aee-43b9-8bc1-130fefc0e1c7.png)
 
 
 Hello there, I am Jaimitkumar Panchal
