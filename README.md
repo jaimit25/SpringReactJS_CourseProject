@@ -1,5 +1,5 @@
 # SpringReactJS_CourseProject
-Curated Course - Watch Videos and Manage Videos using Curated Course Project.(Project created using REST APIS (spring) and React JS)
+Curated Course - Watch Videos and Manage Videos using Curated Course Project.(Project created using REST APIS (springboot) and React JS)
 
 <hr/>
 Roles : <br>
