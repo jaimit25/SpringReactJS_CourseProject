@@ -1,6 +1,12 @@
 # SpringReactJS_CourseProject
-Course Project - Course Project to watch videos on Courses Posted by Authors.(Project created using REST APIS (spring) and React JS)
+Curated Course - Watch Videos and Manage Videos using Curated Course Project.(Project created using REST APIS (spring) and React JS)
 
+<hr/>
+Roles : <br>
+Admin - Add Courses and Delete Courses, Search Courses.<br>
+General User - View Courses, Authentication, Search Courses.
+
+<hr/>
 To Access the Home Section : 
 http://localhost:3000/home
 
