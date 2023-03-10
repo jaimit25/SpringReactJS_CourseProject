@@ -1,5 +1,5 @@
 # SpringReactJS_CourseProject
-Course Project - Course Project  to watch videos on Courses Posted by Authors, Project created using REST APIS (spring) and React JS
+Course Project - Course Project to watch videos on Courses Posted by Authors.(Project created using REST APIS (spring) and React JS)
 
 To Access the Home Section : 
 http://localhost:3000/home
