@@ -1,6 +1,12 @@
 # SpringReactJS_CourseProject
 Course Project - Course Project  to watch videos on Courses Posted by Authors, Project created using REST APIS (spring) and React JS
 
+To Access the Home Section : 
+http://localhost:3000/home
+
+To Access the Admin Section(pass: "admin") :
+http://localhost:3000/admin
+
 Hello there, I am Jaimitkumar Panchal
 I've been focusing on enhancing my logic-building abilities as a full-stack developer and beginner at competitive programming. I live in India.
 
